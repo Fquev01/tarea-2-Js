@@ -1,0 +1,8 @@
+.page {
+    width: 100%;
+    font-size: clamp(0.9rem, 1.5vw, 1rem);
+    font-weight: 300;
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    font-family: var(--font-main);
+}

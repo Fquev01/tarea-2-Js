@@ -1,0 +1,15 @@
+:root {
+    --color-header: #7c7575;
+    --color-bg: #999;
+    --color-text: #000;
+    --font-main: "Lexend", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --color-header: #7c7575;
+        --color-bg: #222;
+        --color-text: #f5f5f5;
+        --color-white: #333;
+    }
+}
