@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.js" defer></script>
+    <title>Tarea 5</title>
+</head>
+<body class="page">
+
+    <header class="header">
+        <div class="cart-message" id="cartMessage"></div>
+        <button class="header__icon header__icon--menu">
+            <img src="img/menu.png" alt="Icono Menu">
+        </button>
+
+        <img class="header__logo" src="img/logo.jpg" alt="tarea 5 galeria">
+
+        <button class="header__icon header__icon--cart">
+            <img src="img/online-shop_7620729.png" alt="Icono Carrito">
+            <span class="header__cart-count">0</span>
+        </button>
+    </header>
+
+
+    <main class="main">
+
+        <section class="banner">
+            <h2 class="banner__title">Productos existentes</h2>
+            <p class="banner__subtitle">Conoce nuestro catalogo de arte</p>
+        </section>
+
+        <section class="products">
+
+            <article class="product">
+                <span class="product__tag">Piezas limitadas</span>
+                <img class="product__image" src="img/la noche.webp" alt="la noche estrellada" width="100">
+                <h3 class="product__name">Vincent Van gogh</h3>
+                <p class="product__price">$1,000,000</p>
+            </article>
+
+            <article class="product">
+                <span class="product__tag">Piezas limitadas</span>
+                <img class="product__image" src="img/mona lisa.webp" alt="Mona lisa" width="100">
+                <h3 class="product__name">Leonardo da Vinci</h3>
+                <p class="product__price">$2,000,000</p>
+            </article>
+
+            <article class="product">
+                <span class="product__tag">Piezas limitadas</span>
+                <img class="product__image" src="img/sueno noche.webp" alt="sueño de una tarde en la alameda central" width="100">
+                <h3 class="product__name">Diego Rivera</h3>
+                <p class="product__price">$1,000,000</p>
+            </article>
+
+            <article class="product">
+                <span class="product__tag">Piezas limitadas</span>
+                <img class="product__image" src="img/guernica.webp" alt="Guernica" width="100">
+                <h3 class="product__name">Pablo Picasso</h3>
+                <p class="product__price">$1,800,000</p>
+            </article>
+
+            <article class="product">
+                <span class="product__tag">Piezas limitadas</span>
+                <img class="product__image" src="img/nenufares.webp" alt="nenúfares" width="100">
+                <h3 class="product__name">Claude Monet</h3>
+                <p class="product__price">$1,500,000</p>
+            </article>
+
+            <article class="product">
+                <span class="product__tag">Piezas limitadas</span>
+                <img class="product__image" src="img/omnisciencia.webp" alt="omnisciencia" width="100">
+                <h3 class="product__name">Jose Clemente</h3>
+                <p class="product__price">$1,000,000</p>
+            </article>
+
+        </section>
+
+        <section class="cart">
+
+            <div class="cart__header">
+                <h2 class="cart__title">Carrito</h2>
+                <button class="cart__close">✕</button>
+            </div>
+
+            <div class="cart__content">
+                
+                
+                <p class="cart__total"><span>$0</span></p>
+                
+                <button class="cart__button boton">Comprar</button> 
+                <br>
+            </div>
+
+            <ul class="cart__items"></ul>
+        </section>
+
+
+    </main>
+    
+    <footer class="footer">
+        <p class="footer__text">© 2023 Tarea 5 Galería. Todos los derechos reservados.</p>
+        <p class="footer__text">Desarrollado por francois quevedo</p>
+    </footer>
+
+</body>
+
+
+</html>
